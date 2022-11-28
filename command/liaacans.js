@@ -1441,19 +1441,7 @@ allmenu = `Hy Kak ${pushname}
 ├│${prefix}infogempa
 ├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}topupgame
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
-├│${prefix}caraorder
 ├│${prefix}cekstatus
 ├│${prefix}item
 ├│${prefix}additem
@@ -1552,7 +1540,7 @@ const sections = [
 	]
     },
 ]
-let menunyaa = `Menampilkan List Menu LiaaCans Bot
+let menunyaa = `Menampilkan List Menu Rel Bot
 
 Hai Kak ${pushname}
 *${ucapanWaktu}*
@@ -1851,18 +1839,7 @@ mainmenu = `┌─❖ ⌜ Main Menu ⌟
 ├│${prefix}ssweb-pc
 ├│${prefix}ssweb-hp
 ├│${prefix}infogempa
-├│${prefix}topupmenu
 ├│${prefix}tts
-├│${prefix}shopeepay
-├│${prefix}ovo
-├│${prefix}listdmff
-├│${prefix}listdmml
-├│${prefix}listdmml2
-├│${prefix}buypulsa
-├│${prefix}topupff
-├│${prefix}topupml
-├│${prefix}topupml2
-├│${prefix}topupff2
 ├│${prefix}rules
 ├│${prefix}caraorder
 ├│${prefix}cekstatus
@@ -1879,15 +1856,13 @@ case 'sc': case 'script': case 'sourcecode': {
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `${global.fake}`,jpegThumbnail: global.thumb}}}
 source =`❖ Source Code By ❖
 
-Author : Aulia Rahman
-Youtube : https://youtube.com/AuliaRahmanOfficial123
-Instagram : https://instagram.com/auliarahman_ckep
-Tiktok : https://tiktok.com/@liaacans'
+Owner : Farel
 
 ❖ Link Base Script ❖
-https://github.com/liaacans/base-device
+*Minta owner
 
 Big Thanks To
+• Naufal
 • Aulia Rahman
 • Zero YT7
 • Dhika Ardhiant
@@ -1895,8 +1870,7 @@ Big Thanks To
 • Chaliph
 • Allah S.W.T
 • Ortu
-• All Creator Bot
-• All Subscriber Ku`
+• All Creator Bot`
 let buttons = [{ buttonId: 'menu', buttonText: { displayText: '️Back Menu' }, type: 1 },{ buttonId: 'ping', buttonText: { displayText: 'Status Bot' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: 'Owner' }, type: 1 }]
             await liaacans.sendButtonText(m.chat, buttons, source, creator, m, { quoted: kafloc })
             }
@@ -6428,7 +6402,7 @@ liaacans.sendMessage(m.chat, { image: {url: anu}, caption: 'Done!'}, {quoted:m})
 }
 break
 case 'sewabot':
-m.reply(`*SEWA LIAACANS BOT*
+m.reply(`*SEWA REL BOT*
 
 *List Harga*
 Rp3.000 › 5day
@@ -6469,7 +6443,7 @@ m.reply( text1 + readmore + text2)
 break
 //---------------[ AUTO RESPON ]------------------//
 
-case 'rahman':{
+case 'farel':{
 m.reply(`apasi manggil² owner bot? kangen ya??`)
 }
 break
